@@ -1,5 +1,5 @@
 # Whiterose
-Whiterose is a pure Python library built to return the current time in real-time within a single stdout. This Python library does not require any external libraries. This project is still in a semi-WIP state.
+Whiterose is a pure Python library built to return the current time in real-time within a single stdout. This Python library does not require any external libraries.
 
 ## Installation
 You can install this library via Pypi:
@@ -8,7 +8,7 @@ $ pip3 install whiterose
 ```
 
 ## Usage
-A script has been provided for testing the currently functionality of the library.
+A script has been provided for testing the current functionality of the library.
 ```bash
 $ python3 example.py
 ```
@@ -21,40 +21,41 @@ timer_m() - Time updates in real-time every minute
 timer_h() - Time updates in real-time every hour
 
 ## Examples
-You can call the library by using this syntax. This example will print the time to the console every second.
+You can call the library by using this syntax:
 ```python
+# This example will print the time to the console every second
 from whiterose.whiterose import Whiterose
 
 wr = Whiterose()
 
 def one_s_timer():
-    wr.timer_s(1) # Real-time timer ever 1 second
+    wr.timer_s(1) # 1 second
 
 if __name__ == '__main__':
     one_s_timer()
 ```
 
-This example will print the time to the console every 4 seconds.
 ```python
+# This example will print the time to the console every 4 seconds
 from whiterose.whiterose import Whiterose
 
 wr = Whiterose()
 
 def one_s_timer():
-    wr.timer_s(4) # Real-time timer ever 4 seconds
+    wr.timer_s(4) # 4 seconds
 
 if __name__ == '__main__':
     one_s_timer()
 ```
 
-This example will print the time to the console every 2 minutes.
 ```python
+# This example will print the time to the console every 2 minutes
 from whiterose.whiterose import Whiterose
 
 wr = Whiterose()
 
 def one_m_timer():
-    wr.timer_m(2) # Real-time timer ever 2 minutes
+    wr.timer_m(2) # 2 minutes
 
 if __name__ == '__main__':
     one_m_timer()
