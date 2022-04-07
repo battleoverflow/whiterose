@@ -1,6 +1,12 @@
 # Whiterose
 Whiterose is a pure Python library built to return the current time in real-time within a single stdout. This Python library does not require any external libraries. This project is still in a semi-WIP state.
 
+## Installation
+You can install this library via Pypi:
+```bash
+$ pip3 install whiterose
+```
+
 ## Usage
 A script has been provided for testing the currently functionality of the library.
 ```bash
@@ -17,7 +23,7 @@ timer_h() - Time updates in real-time every hour
 ## Examples
 You can call the library by using this syntax. This example will print the time to the console every second.
 ```python
-from whiterose import Whiterose
+from whiterose.whiterose import Whiterose
 
 wr = Whiterose()
 
@@ -30,7 +36,7 @@ if __name__ == '__main__':
 
 This example will print the time to the console every 4 seconds.
 ```python
-from whiterose import Whiterose
+from whiterose.whiterose import Whiterose
 
 wr = Whiterose()
 
@@ -43,7 +49,7 @@ if __name__ == '__main__':
 
 This example will print the time to the console every 2 minutes.
 ```python
-from whiterose import Whiterose
+from whiterose.whiterose import Whiterose
 
 wr = Whiterose()
 

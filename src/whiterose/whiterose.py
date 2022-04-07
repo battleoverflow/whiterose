@@ -9,6 +9,8 @@ from datetime import datetime
 #                                             #
 ###############################################
 
+VERSION = "0.1.6"
+
 class Whiterose:
 
     def timer_s(self, seconds):

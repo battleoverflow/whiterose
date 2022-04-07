@@ -16,7 +16,7 @@ Example: python3 example.py
 #                                             #
 ###############################################
 
-from whiterose import Whiterose
+from whiterose.whiterose import Whiterose
 
 wr = Whiterose()
 
@@ -39,16 +39,16 @@ if timer_method == "0":
     try:
         one_s_timer()
     except KeyboardInterrupt:
-        timer_method = input("Choose your timer method (If done, press Ctrl+C again): ")
+        timer_method = input("\nChoose your timer method (If done, press Ctrl+C again): ")
 elif timer_method == "1":
     try:
         one_m_timer()
     except KeyboardInterrupt:
-        timer_method = input("Choose your timer method (If done, press Ctrl+C again): ")
+        timer_method = input("\nChoose your timer method (If done, press Ctrl+C again): ")
 elif timer_method == "2":
     try:
         one_h_timer()
     except KeyboardInterrupt:
-        timer_method = input("Choose your timer method (If done, press Ctrl+C again): ")
+        timer_method = input("\nChoose your timer method (If done, press Ctrl+C again): ")
 else:
     print("Please choose one of the following options")
