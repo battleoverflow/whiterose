@@ -4,8 +4,8 @@ from datetime import datetime
 ###############################################
 #                                             #
 #   Whiterose Timing Library                  #
-#   Author: Hifumi1337                        #
-#   GitHub: https://github.com/Hifumi1337     #
+#   Author: azazelm3dj3d                      #
+#   GitHub: https://github.com/azazelm3dj3d   #
 #                                             #
 ###############################################
 

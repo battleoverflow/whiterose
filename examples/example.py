@@ -1,5 +1,6 @@
 """
-This example allows the user to choose their preferred method of time. The library currently support seconds, minutes, and hours.
+This example allows the user to choose their preferred method of time.
+The library currently support seconds, minutes, and hours.
 
 timer_s() - Time updates in real-time every second
 timer_m() - Time updates in real-time every minute
@@ -11,8 +12,8 @@ Example: python3 example.py
 ###############################################
 #                                             #
 #   example.py                                #
-#   Author: Hifumi1337                        #
-#   GitHub: https://github.com/Hifumi1337     #
+#   Author: azazelm3dj3d                      #
+#   GitHub: https://github.com/azazelm3dj3d   #
 #                                             #
 ###############################################
 
