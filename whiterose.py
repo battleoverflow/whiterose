@@ -4,12 +4,12 @@ from datetime import datetime
 ###############################################
 #                                             #
 #   Whiterose Timing Library                  #
-#   Author: azazelm3dj3d                      #
-#   GitHub: https://github.com/azazelm3dj3d   #
+#   Author: battleoverflow                    #
+#   GitHub: https://github.com/battleoverflow #
 #                                             #
 ###############################################
 
-VERSION = "0.1.6"
+VERSION = "0.1.7"
 
 class Whiterose:
 
